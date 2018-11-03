@@ -10,10 +10,10 @@ const pms = require('pretty-ms');
 
 
 
-var ServerID = "327919134341857281"; // ايدي السيرفر
-var ChannelID = "442669559938416652"; // اول روم للسبام
+var ServerID = "508294311004340224"; // ايدي السيرفر
+var ChannelID = "508321973126955038"; // اول روم للسبام
 
-var ChannelIID = "442401719171940372"; // تاني روم للسبام
+var ChannelIID = "508321998657814563"; // تاني روم للسبام
 
  
 
@@ -117,7 +117,7 @@ client.on('message', message => {
 
 
 client.on('ready', () => {
-  client.channels.find(ch => ch.id === "432155741772578826" && ch.type === 'voice').join();//اكتب اي دي روم صوت هنا
+  client.channels.find(ch => ch.id === "508330495927648280" && ch.type === 'voice').join();//اكتب اي دي روم صوت هنا
 });
 
 
